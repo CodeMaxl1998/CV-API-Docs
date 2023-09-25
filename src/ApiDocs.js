@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ApiDocs.css';
 
 const ApiDocumentation = () => {
-    const [activeSection, setActiveSection] = useState('personalInfo');
+    const [activeSection, setActiveSection] = useState('overview');
 
   return (
     <><div className="documentation-container">
